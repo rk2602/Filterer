@@ -46,7 +46,7 @@ navbarPage(title = tags$div(img(src='llnl-logo.png', height = 25, width = 150), 
   tabPanel(title = 'Filterer',
            
            # Page title
-           titlePanel('LLNL Surface Complexation Database Converter'),
+           titlePanel('LLNL Surface Complexation Database Filterer'),
            
            # Sidebar area with user inputs
            sidebarPanel(
@@ -72,7 +72,7 @@ navbarPage(title = tags$div(img(src='llnl-logo.png', height = 25, width = 150), 
   tabPanel(title = 'Contact',
            
            # Page title
-           titlePanel('LLNL Surface Complexation Database Converter'),
+           titlePanel('LLNL Surface Complexation Database Filterer'),
            br(),
            h4('Contact Info'),
            p('Please contact Nicholas Parham at ', strong('(305) 877 8223'), ' or ', strong('nick-99@att.net'), 
